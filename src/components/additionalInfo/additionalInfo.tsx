@@ -3,6 +3,7 @@ import { Avatar, Description } from "./styled";
 import AvatarSRC from "../../assets/avatar.jpg";
 import { Stack } from "@mui/material";
 import { Contacts } from "../contacts/contacts";
+import { Certificates } from "../certificates/certificates";
 
 export const AdditionalInfo = () => {
   return (
@@ -15,6 +16,7 @@ export const AdditionalInfo = () => {
         Nice to meet you here)
       </Description>
       <Contacts />
+      <Certificates />
     </Stack>
   );
 };

@@ -1,29 +1,30 @@
 import React from "react";
 import { EXPERIENCE } from "../../constants/experience";
-import { Box, Stack } from "@mui/material";
+import { Box } from "@mui/material";
 import {
   Company,
   Specialization,
   Period,
   Description,
   LogoBox,
+  ItemContainer,
 } from "./styled";
 
 export const Experience = () => {
   return (
     <div>
       {EXPERIENCE.map((exp) => (
-        <Stack direction={"row"} alignItems={"center"} gap={2}>
+        <ItemContainer>
           <LogoBox>
             {React.createElement(exp.logo)}
-            <Period mt={2}>{exp.period}</Period>
+            <Period>{exp.period}</Period>
           </LogoBox>
           <Box>
             <Company>{exp.companyName}</Company>
             <Specialization>{exp.specialization}</Specialization>
             <Description>{exp.description}</Description>
           </Box>
-        </Stack>
+        </ItemContainer>
       ))}
     </div>
   );

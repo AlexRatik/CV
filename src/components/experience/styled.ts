@@ -1,4 +1,10 @@
-import { Box, styled, Typography } from "@mui/material";
+import { Box, Stack, styled, Typography } from "@mui/material";
+
+export const ItemContainer = styled(Stack)({
+  flexDirection: "row",
+  alignItems: "center",
+  gap: 2,
+});
 
 export const Company = styled(Typography)({
   fontSize: "30px",
@@ -6,6 +12,7 @@ export const Company = styled(Typography)({
 export const Period = styled(Typography)({
   color: "#79819A",
   fontSize: "18px",
+  marginTop: "15px",
 });
 export const Specialization = styled(Typography)({
   color: "#79819A",

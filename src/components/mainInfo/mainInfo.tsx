@@ -3,6 +3,7 @@ import { Name, Specialization, Title } from "./styled";
 import { Stack } from "@mui/material";
 import { Experience } from "../experience/experience";
 import { Skills } from "../skills/skills";
+import { Education } from "../education/education";
 
 export const MainInfo = () => {
   return (
@@ -15,6 +16,8 @@ export const MainInfo = () => {
           <Experience />
           <Title>Skills</Title>
           <Skills />
+          <Title>Education</Title>
+          <Education />
         </Stack>
       </Stack>
     </div>

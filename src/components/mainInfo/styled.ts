@@ -14,7 +14,6 @@ export const Specialization = styled("h2")({
 });
 
 export const Title = styled(Typography)({
-  marginBottom: "20px",
   fontSize: "40px",
   fontWeight: 500,
   position: "relative",

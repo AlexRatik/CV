@@ -1,18 +1,20 @@
 import React from "react";
 import { RotatedBox } from "./components/rotatedBox/rotatedBox";
-import { Box } from "@mui/material";
 import { AdditionalInfo } from "./components/additionalInfo/additionalInfo";
-import { InfoContainer, InfoWrapper, MainBlock } from "./styled";
+import { InfoContainer, InfoWrapper1, InfoWrapper2, MainBlock } from "./styled";
+import { MainInfo } from "./components/mainInfo/mainInfo";
 
 function App() {
   return (
     <MainBlock>
       <RotatedBox />
       <InfoContainer>
-        <InfoWrapper>
+        <InfoWrapper1>
           <AdditionalInfo />
-        </InfoWrapper>
-        <Box flex={3} />
+        </InfoWrapper1>
+        <InfoWrapper2>
+          <MainInfo />
+        </InfoWrapper2>
       </InfoContainer>
     </MainBlock>
   );

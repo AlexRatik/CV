@@ -4,16 +4,9 @@ import TelegramIcon from "@mui/icons-material/Telegram";
 import MyLocationIcon from "@mui/icons-material/MyLocation";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import { IContact } from "../interfaces/IContact";
 
-import { OverridableComponent } from "@mui/material/OverridableComponent";
-import { SvgIconTypeMap } from "@mui/material";
-
-const CONTACTS: {
-  href: string;
-  hrefText: string;
-  text: string;
-  icon: OverridableComponent<SvgIconTypeMap> & { muiName: string };
-}[] = [
+const CONTACTS: IContact[] = [
   {
     text: "Email",
     href: "alexandr.ratkevich.1337@gmail.com",

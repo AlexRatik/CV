@@ -3,6 +3,7 @@ import PM from "../assets/projects/project_managment.png";
 import ArtQuiz from "../assets/projects/artQuiz.png";
 import Louvre from "../assets/projects/louvre.png";
 import Momentum from "../assets/projects/momentum.png";
+import Calculator from "../assets/projects/calculator.png";
 
 export const PROJECTS: IProject[] = [
   {
@@ -11,7 +12,15 @@ export const PROJECTS: IProject[] = [
       "A convenient tool for work planning and task separation. A team project.",
     href: "https://team-18-react-project-management.netlify.app/",
     imgSRC: PM,
-    stack: "React + Typescript + Material-UI + modular SCSS + JWT",
+    stack: "React + Redux + Typescript + Material-UI + modular SCSS + JWT",
+  },
+  {
+    name: "Calculator",
+    href: "https://alexratik.github.io/calculator/fc",
+    description:
+      "React calculator written on both functional and class components with a history of calculations.",
+    stack: "React + Redux + Typescript + Styled-Components + Cypress",
+    imgSRC: Calculator,
   },
   {
     name: "Momentum",

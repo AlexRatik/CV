@@ -21,6 +21,11 @@ const StyledRotatedRectangle = styled("div")(({ theme }) => ({
     left: "-45%",
     width: "165%",
   },
+  [theme.breakpoints.down(415)]: {
+    top: "-12%",
+    left: "-45%",
+    width: "165%",
+  },
 }));
 
 const RotatedBox = () => {

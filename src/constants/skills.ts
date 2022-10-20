@@ -12,6 +12,7 @@ import { ReactComponent as NodeJS } from "../assets/skills/nodejs.svg";
 import { ReactComponent as SASS } from "../assets/skills/sass.svg";
 import { ReactComponent as Material_UI } from "../assets/skills/material-ui.svg";
 import { ReactComponent as Styled_Components } from "../assets/skills/styled-components.svg";
+import { ReactComponent as Cypress } from "../assets/skills/cypress.svg";
 
 export const SKILLS = [
   { icon: Git, text: "GIT" },
@@ -24,6 +25,7 @@ export const SKILLS = [
   { icon: SASS, text: "SASS" },
   { icon: Styled_Components, text: "Styled-Components" },
   { icon: Material_UI, text: "Material-UI" },
+  { icon: Cypress, text: "Cypress" },
   { icon: NodeJS, text: "NodeJS" },
   { icon: Webpack, text: "Webpack" },
   { icon: Express, text: "Express" },

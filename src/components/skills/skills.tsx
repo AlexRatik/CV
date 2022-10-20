@@ -9,7 +9,7 @@ export const Skills = () => {
       direction={"row"}
       alignItems={"center"}
       flexWrap={"wrap"}
-      justifyContent={"space-around"}
+      justifyContent={"space-evenly"}
       gap={"30px"}
     >
       {SKILLS.map((skill) => (

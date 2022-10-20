@@ -6,21 +6,33 @@ export const MainBlock = styled("div")({
   overflow: "hidden",
 });
 
-export const InfoContainer = styled(Stack)({
+export const InfoContainer = styled(Stack)(({ theme }) => ({
   flexDirection: "row",
   height: "100%",
-});
+  [theme.breakpoints.down("md")]: {
+    flexWrap: "wrap",
+  },
+}));
 
-export const InfoWrapper1 = styled(Box)({
+export const InfoWrapper1 = styled(Box)(({ theme }) => ({
   flex: 1,
-  height: "100%",
-  padding: "100px 15% 10% 10%",
+  minHeight: "100%",
+  padding: "200px 5% 5%",
   background: "rgba(191, 191, 191, 0.1)",
-});
+  [theme.breakpoints.down("md")]: {
+    flexBasis: "100%",
+    padding: "10% 4% 4%",
+  },
+}));
 
-export const InfoWrapper2 = styled(Box)({
-  height: "100%",
+export const InfoWrapper2 = styled(Box)(({ theme }) => ({
+  zIndex: 10,
+  backgroundColor: "transparent",
+  minHeight: "100%",
   flex: 3,
-  padding: "200px 10% 10% 2%",
-  background: "#fff",
-});
+  padding: "200px 5% 5% 3%",
+  [theme.breakpoints.down("md")]: {
+    flexBasis: "100%",
+    padding: "0 4% 4%",
+  },
+}));

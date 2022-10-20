@@ -25,16 +25,25 @@ export const StyledImg = styled("img")({
   borderRadius: "15px",
 });
 
-export const Title = styled(Typography)({
+export const Title = styled(Typography)(({ theme }) => ({
   fontSize: "32px",
   fontWeight: 600,
-});
+  [theme.breakpoints.down("lg")]: {
+    fontSize: "26px",
+  },
+}));
 
-export const Description = styled(Typography)({
+export const Description = styled(Typography)(({ theme }) => ({
   fontSize: "22px",
-});
+  [theme.breakpoints.down("lg")]: {
+    fontSize: "18px",
+  },
+}));
 
-export const WorkStack = styled(Typography)({
+export const WorkStack = styled(Typography)(({ theme }) => ({
   color: "#79819A",
   fontSize: "20px",
-});
+  [theme.breakpoints.down("lg")]: {
+    fontSize: "16px",
+  },
+}));

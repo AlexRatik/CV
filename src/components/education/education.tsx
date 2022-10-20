@@ -13,8 +13,8 @@ export const Education = () => {
   return (
     <>
       {EDUCATION.map((educ) => (
-        <ItemContainer>
-          <Box>
+        <ItemContainer key={educ.company + educ.specialization + educ.period}>
+          <Box textAlign={"center"}>
             <StyledImg src={educ.logo} alt={educ.company} />
           </Box>
           <Stack width={"100%"} gap={0.75}>

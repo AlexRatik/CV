@@ -14,7 +14,7 @@ export const Experience = () => {
   return (
     <div>
       {EXPERIENCE.map((exp) => (
-        <ItemContainer>
+        <ItemContainer key={exp.description}>
           <LogoBox>
             {React.createElement(exp.logo)}
             <Period>{exp.period}</Period>

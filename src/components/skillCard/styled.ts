@@ -1,6 +1,6 @@
 import { Stack, styled, Typography } from "@mui/material";
 
-export const StyledSkillCard = styled(Stack)({
+export const StyledSkillCard = styled(Stack)(({ theme }) => ({
   alignItems: "center",
   justifyContent: "space-between",
   width: "100px",
@@ -15,7 +15,10 @@ export const StyledSkillCard = styled(Stack)({
     height: "auto",
     alignSelf: "center",
   },
-});
+  [theme.breakpoints.down(1550)]: {
+    width: "130px",
+  },
+}));
 
 export const StyledTypography = styled(Typography)({
   color: "#2E2E48",

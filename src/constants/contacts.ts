@@ -10,7 +10,7 @@ const CONTACTS: IContact[] = [
   {
     text: "Email",
     href: "alexandr.ratkevich.1337@gmail.com",
-    hrefText: "alexandr.ratkevich.1337@gmail.com",
+    hrefText: "alexandr.ratkevich.1337",
     icon: EmailIcon,
   },
   {

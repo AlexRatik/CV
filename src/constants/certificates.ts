@@ -14,7 +14,7 @@ export const CERTIFICATES: ICertificate[] = [
     hrefText: "Javascript/FE Pre-school",
     company: "The Rolling Scopes School",
     title: "Certificate",
-    href: "https://app.rs.school/certificate/7xr18pmk",
+    href: "https://app.rs.school/certificate/bl6g006d",
     icon: EmojiEventsIcon,
   },
   {

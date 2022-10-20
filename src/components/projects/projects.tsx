@@ -7,7 +7,7 @@ export const Projects = () => {
   return (
     <Stack gap={3}>
       {PROJECTS.map((proj) => (
-        <ProjectCard {...proj} />
+        <ProjectCard {...proj} key={proj.href} />
       ))}
     </Stack>
   );

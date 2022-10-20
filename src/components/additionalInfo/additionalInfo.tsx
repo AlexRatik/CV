@@ -7,7 +7,7 @@ import {
   Name,
   Specialization,
 } from "./styled";
-import AvatarSRC from "../../assets/avatar.jpg";
+import AvatarSRC from "../../assets/avatar.png";
 import { Box, Stack } from "@mui/material";
 import { Contacts } from "../contacts/contacts";
 import { Certificates } from "../certificates/certificates";

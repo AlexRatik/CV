@@ -16,7 +16,7 @@ export const PROJECTS: IProject[] = [
   },
   {
     name: "Calculator",
-    href: "https://alexratik.github.io/calculator/fc",
+    href: "https://alexratik.github.io/calculator",
     description:
       "React calculator written on both functional and class components with a history of calculations.",
     stack: "React + Redux + Typescript + Styled-Components + Cypress",

@@ -56,8 +56,8 @@
     "static/media/webpack.svg": "./static/media/webpack.f44900ae6538b4d778644c71e250e7c5.svg",
     "static/media/css.svg": "./static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html.svg": "./static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
-    "static/media/material-ui.svg": "./static/media/material-ui.fd510ed8518b192069590b04e2e6348a.svg",
     "index.html": "./index.html",
+    "static/media/material-ui.svg": "./static/media/material-ui.fd510ed8518b192069590b04e2e6348a.svg",
     "main.e8f36061.css.map": "./static/css/main.e8f36061.css.map",
     "main.17804d86.js.map": "./static/js/main.17804d86.js.map"
   },

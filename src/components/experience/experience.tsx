@@ -1,31 +1,32 @@
 import React from "react";
 import { EXPERIENCE } from "../../constants/experience";
-import { Box } from "@mui/material";
+import { Grid, Stack} from "@mui/material";
 import {
   Company,
   Specialization,
   Period,
   Description,
   LogoBox,
-  ItemContainer,
 } from "./styled";
 
 export const Experience = () => {
   return (
-    <div>
+    <Stack gap={1}>
       {EXPERIENCE.map((exp) => (
-        <ItemContainer key={exp.description}>
+        <Grid container key={exp.description}>
+          <Grid item xs={4}>
           <LogoBox>
             {React.createElement(exp.logo)}
             <Period>{exp.period}</Period>
           </LogoBox>
-          <Box>
+          </Grid>
+          <Grid item xs={8}>
             <Company>{exp.companyName}</Company>
             <Specialization>{exp.specialization}</Specialization>
             <Description>{exp.description}</Description>
-          </Box>
-        </ItemContainer>
+          </Grid>
+        </Grid>
       ))}
-    </div>
+    </Stack>
   );
 };

@@ -13,6 +13,8 @@ import { ReactComponent as SASS } from "../assets/skills/sass.svg";
 import { ReactComponent as Material_UI } from "../assets/skills/material-ui.svg";
 import { ReactComponent as Styled_Components } from "../assets/skills/styled-components.svg";
 import { ReactComponent as Cypress } from "../assets/skills/cypress.svg";
+import { ReactComponent as Formik } from "../assets/skills/formik.svg";
+import { ReactComponent as Cropper } from "../assets/skills/crop.svg";
 
 export const SKILLS = [
   { icon: Git, text: "GIT" },
@@ -20,9 +22,11 @@ export const SKILLS = [
   { icon: Redux, text: "Redux" },
   { icon: Javascript, text: "Javascript" },
   { icon: Typescript, text: "Typescript" },
+  { icon: Formik, text: "Formik" },
   { icon: HTML, text: "HTML" },
   { icon: CSS, text: "CSS" },
   { icon: SASS, text: "SASS" },
+  { icon: Cropper, text: "CropperJS" },
   { icon: Styled_Components, text: "Styled-Components" },
   { icon: Material_UI, text: "Material-UI" },
   { icon: Cypress, text: "Cypress" },

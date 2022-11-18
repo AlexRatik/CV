@@ -1,10 +1,4 @@
-import { Box, Stack, styled, Typography } from "@mui/material";
-
-export const ItemContainer = styled(Stack)({
-  flexDirection: "row",
-  alignItems: "center",
-  gap: 2,
-});
+import {  Stack, styled, Typography } from "@mui/material";
 
 export const Company = styled(Typography)(({ theme }) => ({
   fontSize: "30px",
@@ -52,8 +46,10 @@ export const Description = styled(Typography)(({ theme }) => ({
   },
 }));
 
-export const LogoBox = styled(Box)({
-  textAlign: "center",
+export const LogoBox = styled(Stack)({
+  alignItems: "center",
+  justifyContent: 'space-around',
+  height:'100%',
   svg: {
     width: "75%",
     height: "auto",
